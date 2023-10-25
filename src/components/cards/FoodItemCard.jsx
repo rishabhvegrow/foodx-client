@@ -52,7 +52,7 @@ const FoodItemCard = ({ Name, Price, ImageUrl, ID }) => {
   
   return (
     <div key={ID} className="w-56 p-2 m-2 shadow-lg bg-pink-100 h-70 relative">
-      <img alt="image-x" src={ImageUrl} style={{ width: "250px", height: "150px" }} />
+      <img alt="food-item" src={ImageUrl} style={{ width: "250px", height: "150px" }} />
       <h2 className='font-bold text-2xl'>{Name}</h2>
       <h3>Price: {Price}</h3>
       <button className="w-full p-2 hover:bg-purple-900 text-white bg-purple-700 rounded-lg" onClick={handleClick}>Add to cart</button>

@@ -106,7 +106,7 @@ const CartItemCard = ({ ID , Quantity, Price, FoodItem, updateQuantity, removeIt
 
     return (
       <div key={ID} className="w-56 p-2 m-2 shadow-lg bg-pink-100 h-70 relative">
-      <img alt="image-x" src={FoodItem.ImageUrl} style={{ width: "250px", height: "150px" }} />
+      <img alt="cart-item" src={FoodItem.ImageUrl} style={{ width: "250px", height: "150px" }} />
       <h2 className='font-bold text-2xl'>{FoodItem.Name}</h2>
       <h3>{Quantity} X {FoodItem.Price} = {Price}</h3>
       {
